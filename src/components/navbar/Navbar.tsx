@@ -13,14 +13,14 @@ const Navbar = () =>{
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                     </svg>
                 </button>
-                <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={'../../../../icons/Solevibe Logo 1.svg'} className="h-11 sm:h-14" alt="Flowbite Logo" />
                 </a>
                 <div className="hidden w-full lg:block lg:w-auto" id="navbar-multi-level">
                     <ul className="flex flex-col font-medium p-4 lg:p-0 mt-4 
                     lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white">
                         <li>
-                            <a href="#" className="block py-2 px-3 text-black" aria-current="page">
+                            <a href="/" className="block py-2 px-3 text-black" aria-current="page">
                                 Home
                             </a>
                         </li>

@@ -85,6 +85,7 @@ body {
 
 .slick-slide > div{
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .inset-center {
@@ -92,6 +93,24 @@ body {
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.vartical-slider{
+  padding-top: 30%;
+}
+.vartical-slider .slick-next {
+  left: 42%;
+  top: -8%;
+  transform: rotate(270deg);
+}
+.vartical-slider .slick-prev {
+  left: 42%;
+  top: unset;
+  bottom: -31px;
+  transform: rotate(270deg);
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #ec1f25 !important;
 }
 
 @media (max-width:640px) {
